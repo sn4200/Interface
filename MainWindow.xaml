@@ -87,26 +87,31 @@
                 <StackPanel Orientation="Horizontal">
                     <RadioButton Content="Programm"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
+                             Background="#002C4D"
                              FontSize="18"
                              Style="{StaticResource MenuButtonTheme}"
                              />
                     <RadioButton Content="Funktionen"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
+                             Background="#002C4D"
                              FontSize="18"
                              Style="{StaticResource MenuButtonTheme}"
                              />
                     <RadioButton Content="Hilfe"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
+                             Background="#002C4D"
                              FontSize="18"
                              Style="{StaticResource MenuButtonTheme}"
                              />
                     <RadioButton Content="Dashboard"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
+                             Background="#002C4D"
                              FontSize="18"
+                             HorizontalContentAlignment="Center"
                              Style="{StaticResource MenuButtonTheme}"
                              />
                 </StackPanel>
