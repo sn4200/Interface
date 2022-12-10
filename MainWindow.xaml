@@ -17,7 +17,7 @@
         Background="Transparent"
         AllowsTransparency="True"
         x:Name="Interface">
-    <Border Background="#272537"
+    <Border Background="Beige"
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -28,24 +28,64 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBlock Text="Interface"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                Foreground="White"
-                FontSize="22"
-                Margin="20,0,0,0"/>
 
             <StackPanel Grid.Row="1">
-                <RadioButton Content="Home"
+                <RadioButton Content="Main"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
                              />
-                
+                <RadioButton Content="Warehouse"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Discovery"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Applications"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Inbound"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Outbound"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Features"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Configuration"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+
+
+
             </StackPanel>
+            <Image HorizontalAlignment="Left" Height="57" Margin="10,0,0,0" VerticalAlignment="Center" Width="164" Source="/Assets/ATP-desktop.png" RenderTransformOrigin="0.031,0.125" IsEnabled="False"/>
         </Grid>
 
-       
-        
+
+
     </Border>
 </Window>
