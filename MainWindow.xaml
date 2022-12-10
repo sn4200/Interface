@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow"
+        Top="10"
+        Left="10"
+        Height="600" 
+        Width="920"
+        MinHeight="300"
+        MinWidth="200"
+        WindowStyle="None"
+        ResizeMode="CanResizeWithGrip"
+        Background="Transparent"
+        AllowsTransparency="True"
+        x:Name="Interface">
+    <Border Background="#272537"
+            CornerRadius="20">
         
-    </Grid>
+    </Border>
 </Window>
