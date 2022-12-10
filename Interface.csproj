@@ -121,5 +121,150 @@
   <ItemGroup>
     <Resource Include="logo.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ViaStore\actions.gif" />
+    <Resource Include="Assets\ViaStore\ajax-loader-small.gif" />
+    <Resource Include="Assets\ViaStore\ajax-loader.gif" />
+    <Resource Include="Assets\ViaStore\ajax.gif" />
+    <Resource Include="Assets\ViaStore\buttons.gif" />
+    <Resource Include="Assets\ViaStore\calendar.gif" />
+    <Resource Include="Assets\ViaStore\calheader.gif" />
+    <Resource Include="Assets\ViaStore\calhover.gif" />
+    <Resource Include="Assets\ViaStore\calnext.gif" />
+    <Resource Include="Assets\ViaStore\calnexthover.gif" />
+    <Resource Include="Assets\ViaStore\calprev.gif" />
+    <Resource Include="Assets\ViaStore\calprevhover.gif" />
+    <Resource Include="Assets\ViaStore\calselected.gif" />
+    <Resource Include="Assets\ViaStore\checkmarkoff.gif" />
+    <Resource Include="Assets\ViaStore\checkmarkon.gif" />
+    <Resource Include="Assets\ViaStore\collapse.gif" />
+    <Resource Include="Assets\ViaStore\comment_yellow.gif" />
+    <Resource Include="Assets\ViaStore\down.gif" />
+    <Resource Include="Assets\ViaStore\editor-helper-bg.gif" />
+    <Resource Include="Assets\ViaStore\exchange.gif" />
+    <Resource Include="Assets\ViaStore\expand.gif" />
+    <Resource Include="Assets\ViaStore\header-bg.gif" />
+    <Resource Include="Assets\ViaStore\header-columns-bg.gif" />
+    <Resource Include="Assets\ViaStore\header-columns-over-bg.gif" />
+    <Resource Include="Assets\ViaStore\info.gif" />
+    <Resource Include="Assets\ViaStore\ledb.gif" />
+    <Resource Include="Assets\ViaStore\ledg.gif" />
+    <Resource Include="Assets\ViaStore\ledr.gif" />
+    <Resource Include="Assets\ViaStore\ledy.gif" />
+    <Resource Include="Assets\ViaStore\listheader.gif" />
+    <Resource Include="Assets\ViaStore\listpager.gif" />
+    <Resource Include="Assets\ViaStore\listselected.gif" />
+    <Resource Include="Assets\ViaStore\listview.gif" />
+    <Resource Include="Assets\ViaStore\loading.gif" />
+    <Resource Include="Assets\ViaStore\loadingSmall.gif" />
+    <Resource Include="Assets\ViaStore\minus.gif" />
+    <Resource Include="Assets\ViaStore\modclose.gif" />
+    <Resource Include="Assets\ViaStore\modclosedown.gif" />
+    <Resource Include="Assets\ViaStore\modclosehover.gif" />
+    <Resource Include="Assets\ViaStore\modheader.gif" />
+    <Resource Include="Assets\ViaStore\modleft.gif" />
+    <Resource Include="Assets\ViaStore\modright.gif" />
+    <Resource Include="Assets\ViaStore\new.gif" />
+    <Resource Include="Assets\ViaStore\pageloadprogress.gif" />
+    <Resource Include="Assets\ViaStore\pencil.gif" />
+    <Resource Include="Assets\ViaStore\plus.gif" />
+    <Resource Include="Assets\ViaStore\pmp32x32.gif" />
+    <Resource Include="Assets\ViaStore\row-over-bg.gif" />
+    <Resource Include="Assets\ViaStore\rss.gif" />
+    <Resource Include="Assets\ViaStore\sort-asc.gif" />
+    <Resource Include="Assets\ViaStore\sort-desc.gif" />
+    <Resource Include="Assets\ViaStore\sortasc.gif" />
+    <Resource Include="Assets\ViaStore\sortdesc.gif" />
+    <Resource Include="Assets\ViaStore\spacer.gif" />
+    <Resource Include="Assets\ViaStore\spinner.gif" />
+    <Resource Include="Assets\ViaStore\splithor.gif" />
+    <Resource Include="Assets\ViaStore\splithorhov.gif" />
+    <Resource Include="Assets\ViaStore\splithorpres.gif" />
+    <Resource Include="Assets\ViaStore\splitvert.gif" />
+    <Resource Include="Assets\ViaStore\splitverthov.gif" />
+    <Resource Include="Assets\ViaStore\splitvertpres.gif" />
+    <Resource Include="Assets\ViaStore\submenu.gif" />
+    <Resource Include="Assets\ViaStore\tabbottomcenter.gif" />
+    <Resource Include="Assets\ViaStore\tabbottomleft.gif" />
+    <Resource Include="Assets\ViaStore\tabbottomright.gif" />
+    <Resource Include="Assets\ViaStore\tabbottomrightdis.gif" />
+    <Resource Include="Assets\ViaStore\tabbottomrighthov.gif" />
+    <Resource Include="Assets\ViaStore\tabbottomrightsel.gif" />
+    <Resource Include="Assets\ViaStore\tableftbot.gif" />
+    <Resource Include="Assets\ViaStore\tableftbotdis.gif" />
+    <Resource Include="Assets\ViaStore\tableftbothov.gif" />
+    <Resource Include="Assets\ViaStore\tableftbotsel.gif" />
+    <Resource Include="Assets\ViaStore\tableftcenter.gif" />
+    <Resource Include="Assets\ViaStore\tableftcenterdis.gif" />
+    <Resource Include="Assets\ViaStore\tableftcenterhov.gif" />
+    <Resource Include="Assets\ViaStore\tableftcentersel.gif" />
+    <Resource Include="Assets\ViaStore\tablefttop.gif" />
+    <Resource Include="Assets\ViaStore\tablefttopdis.gif" />
+    <Resource Include="Assets\ViaStore\tablefttophov.gif" />
+    <Resource Include="Assets\ViaStore\tablefttopsel.gif" />
+    <Resource Include="Assets\ViaStore\tabrightbot.gif" />
+    <Resource Include="Assets\ViaStore\tabrightbotdis.gif" />
+    <Resource Include="Assets\ViaStore\tabrightbothov.gif" />
+    <Resource Include="Assets\ViaStore\tabrightbotsel.gif" />
+    <Resource Include="Assets\ViaStore\tabrightcenter.gif" />
+    <Resource Include="Assets\ViaStore\tabrightcenterdis.gif" />
+    <Resource Include="Assets\ViaStore\tabrightcenterhov.gif" />
+    <Resource Include="Assets\ViaStore\tabrightcentersel.gif" />
+    <Resource Include="Assets\ViaStore\tabrighttop.gif" />
+    <Resource Include="Assets\ViaStore\tabrighttopdis.gif" />
+    <Resource Include="Assets\ViaStore\tabrighttophov.gif" />
+    <Resource Include="Assets\ViaStore\tabrighttopsel.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolldown.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolldowndis.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolldownhov.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolldownpres.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollleft.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollleftdis.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolllefthov.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollleftpres.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollright.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollrightdis.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollrighthov.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollrightpres.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollup.gif" />
+    <Resource Include="Assets\ViaStore\tabscrollupdis.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolluphov.gif" />
+    <Resource Include="Assets\ViaStore\tabscrolluppres.gif" />
+    <Resource Include="Assets\ViaStore\tabtopleft.gif" />
+    <Resource Include="Assets\ViaStore\tabtopright.gif" />
+    <Resource Include="Assets\ViaStore\tabtoprightdis.gif" />
+    <Resource Include="Assets\ViaStore\tabtoprighthov.gif" />
+    <Resource Include="Assets\ViaStore\tabtoprightsel.gif" />
+    <Resource Include="Assets\ViaStore\toolbar.gif" />
+    <Resource Include="Assets\ViaStore\user_identity.gif" />
+    <Resource Include="Assets\ViaStore\user_identity_plus.gif" />
+    <Resource Include="Assets\ViaStore\viastore.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Browser\browserchrome.gif" />
+    <Resource Include="Assets\Browser\browserfirefox.gif" />
+    <Resource Include="Assets\Browser\browsermsie.gif" />
+    <Resource Include="Assets\Browser\browseropera.gif" />
+    <Resource Include="Assets\Browser\browsersafari.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ICON\viastore.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ICON\ATP-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Background\Unbenannt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ICON\Witron_Logo.svg.png" />
+    <Resource Include="Assets\ICON\zeus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ICON\mstsc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ICON\mstsc.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
