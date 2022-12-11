@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interface"
+        xmlns:viewModel="clr-namespace:Interface.MVVM.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow"
         Top="10"
@@ -13,10 +14,14 @@
         MinHeight="300"
         MinWidth="200"
         WindowStyle="None"
-        ResizeMode="CanResizeWithGrip"
+        ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="True"
         x:Name="Interface">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    
     <Border Background="Beige"
             CornerRadius="20">
         <Grid>
@@ -41,6 +46,8 @@
                              Foreground="Black"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"
                              />
                 <RadioButton Content="Warehouse"
                              Height="50"
@@ -53,6 +60,8 @@
                              Foreground="Black"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding DiscoveryViewCommand}"
                              />
                 <RadioButton Content="Applications"
                              Height="50"
@@ -104,7 +113,7 @@
                              Background="#002C4D"
                              FontSize="18"
                              Style="{StaticResource NavBarTopTheme}"
-                                 Checked="RadioButton_Checked" Width="110"
+                                Width="110"
                              />
                     <RadioButton Content="Hilfe"
                              Height="50"
@@ -127,7 +136,8 @@
             <ContentControl 
                 Grid.Column="1"
                 Grid.Row="1"
-                Margin="10"/>
+                Margin="10"
+                Content="{Binding CurrentView}"/>
         </Grid>
 
 
