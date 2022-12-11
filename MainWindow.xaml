@@ -91,26 +91,27 @@
             <Image HorizontalAlignment="Left" Height="57" Margin="10,0,0,0" VerticalAlignment="Center" Width="164" Source="/Assets/ATP-desktop.png" RenderTransformOrigin="0.031,0.125" IsEnabled="False"/>
             <Grid Grid.Column="1" HorizontalAlignment="Right" Height="49" Margin="0,0,104,0" VerticalAlignment="Center" Width="596">
                 <StackPanel Orientation="Horizontal">
-                    <RadioButton Content="Programm"
-                             Height="50"
-                             Foreground="White"
-                             Background="#002C4D"
-                             FontSize="18"
-                             Style="{StaticResource MenuButtonTheme}"
-                             />
                     <RadioButton Content="Funktionen"
                              Height="50"
                              Foreground="White"
                              Background="#002C4D"
                              FontSize="18"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource NavBarTopTheme}" Width="110"
+                             />
+                    <RadioButton Content="Programm"
+                             Height="50"
+                             Foreground="White"
+                             Background="#002C4D"
+                             FontSize="18"
+                             Style="{StaticResource NavBarTopTheme}"
+                                 Checked="RadioButton_Checked" Width="110"
                              />
                     <RadioButton Content="Hilfe"
                              Height="50"
                              Foreground="White"
                              Background="#002C4D"
                              FontSize="18"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource NavBarTopTheme}" Width="110"
                              />
                     <RadioButton Content="Dashboard"
                              Height="50"
@@ -118,10 +119,15 @@
                              Background="#002C4D"
                              FontSize="18"
                              HorizontalContentAlignment="Center"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource NavBarTopTheme}" Width="110"
                              />
                 </StackPanel>
+
             </Grid>
+            <ContentControl 
+                Grid.Column="1"
+                Grid.Row="1"
+                Margin="10"/>
         </Grid>
 
 
